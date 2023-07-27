@@ -1,0 +1,163 @@
+* {
+  box-sizing: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 2rem;
+  max-width: 1440px;
+  background-color: #f0f4f5;
+
+}
+
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 5.25rem;
+  padding: 0 5%;
+  height: 15vh;
+}
+
+.logo-img {
+  width: 150px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+nav ul li:first-child {
+  font-weight: 700;
+  color: #20bc7e;
+}
+
+nav ul a {
+  text-decoration: none;
+  color: black;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  margin-top: 135px;
+  margin-left: 150px;
+  padding: 5% 0;
+    max-height: 85vh;
+}
+
+
+  
+.left-part {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: url(./assets/stethoscope.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.left-part img {
+  height: 20px;
+  width: 20px;
+  padding: 3%;
+  margin-left: -28px;
+  margin-bottom: -15px;
+}
+
+.left-part h1 {
+  font-weight: 700;
+  font-size: 60px;
+  max-width: 80%;
+  /* gap: 30px; */
+  line-height: 4.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.left-part p {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 1.3rem;
+  max-width: 92%;
+  color: rgb(153, 153, 153);
+  margin-bottom: 1.5rem;
+}
+
+.left-part button {
+  border: none;
+  max-width: 35%;
+  padding: 15px;
+  border-radius: 2.5rem;
+  background-color: #14f55fab;
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+}
+
+.angle {
+  width: 25px;
+  position: relative;
+  left: 600px;
+ top: -74px;
+}
+
+/* 
+.stethoscope {
+    width: 90%;
+    top: -60px;
+    right: -25%;
+  z-index: -1;
+} */
+.mouse {
+    width: 35px;
+    position: relative;
+    left: 635px;
+   top: -90px;
+  }
+
+.right-part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 50%;
+  position: relative;
+}
+
+.greenbox , .yellowbox{
+    position: absolute;
+    
+
+}
+.greenbox {
+   
+    width: 60%;
+    top: -8px;
+    right: 114px;;
+}
+    
+  
+  .yellowbox {
+    width: 55%;
+    top: 61px;
+    right: 83px;
+  }
+
+  .doctor{
+    z-index: 1;
+    position: relative;
+    height: 110%;
+    top:-25%;
+  }
